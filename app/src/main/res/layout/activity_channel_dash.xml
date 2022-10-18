@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    tools:context=".channelDash">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/layoutBar_dash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tool_dash"
+            android:background="?attr/colorSecondary"
+            android:backgroundTint="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/channel_dash_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            
+            <TextView
+                android:id="@+id/user_channel_display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"/>
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:background="@color/black"
+        app:tabSelectedTextColor="@color/teal_200"
+        app:tabIndicatorColor="@color/silver"
+        >
+
+    <com.google.android.material.tabs.TabItem
+        android:id="@+id/itemHome"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Home"
+        />
+
+    <com.google.android.material.tabs.TabItem
+        android:id="@+id/itemVideos"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Videos"
+        />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/itemAudios"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Audios"
+            />
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tabLayout"
+        />
+    </RelativeLayout>

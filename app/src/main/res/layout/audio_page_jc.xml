@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:orientation="vertical"
+    tools:context=".audioPage_jc">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:background="@color/teal_200"
+        android:layout_weight="85">
+
+        <ImageView
+            android:id="@+id/clickSong"
+            android:src="@drawable/audd"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:layout_height="250dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15">
+        
+        <com.example.jean.jcplayer.view.JcPlayerView
+            android:id="@+id/jcPlayerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    
+</LinearLayout>

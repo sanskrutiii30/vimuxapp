@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/back_profile_grad"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/channel_detail_logo"
+        android:layout_marginTop="30dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/channel_detail_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/channel_detail_logo"
+        android:layout_marginTop="45dp"
+        android:gravity="center_horizontal"
+        android:text="channel name"/>
+
+    <TextView
+        android:id="@+id/channel_detail_creator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/channel_detail_name"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="channel creator"/>
+
+    <TextView
+        android:id="@+id/channel_detail_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/channel_detail_creator"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="channel desc"/>
+
+    <TextView
+        android:id="@+id/channel_detail_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/channel_detail_desc"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:text="channel date"/>
+
+</RelativeLayout>

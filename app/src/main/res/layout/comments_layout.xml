@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/comment_insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter comment here..."
+        android:background="@drawable/edit_text_bg"
+        android:padding="10dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:id="@+id/comment_submit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@id/comment_insert"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:background="@drawable/edit_text_bg"
+        android:backgroundTint="@color/black"
+        android:padding="7dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/comment_view_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View comments"
+        android:layout_below="@id/comment_submit_btn"
+        android:textSize="20sp"
+        android:background="@drawable/edit_text_bg"
+        android:backgroundTint="@color/black"
+        android:padding="7dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+</RelativeLayout>

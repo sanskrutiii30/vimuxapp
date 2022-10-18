@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyRipple">
+        <item name="colorControlHighlight">@color/ripple_color</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+</resources>

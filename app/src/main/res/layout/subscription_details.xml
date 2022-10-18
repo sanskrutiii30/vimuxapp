@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/back_profile_grad"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/sub_details_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="active"/>
+
+
+    <TextView
+        android:id="@+id/sub_details_startDT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sub_details_total"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="start date"/>
+
+    <TextView
+        android:id="@+id/sub_details_endDT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/sub_details_startDT"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="end date"/>
+
+</RelativeLayout>

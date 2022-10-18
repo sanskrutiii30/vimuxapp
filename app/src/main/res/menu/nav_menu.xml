@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"/>
+
+        <item
+            android:id="@+id/nav_audio"
+            android:icon="@drawable/audio_icon"
+            android:title="Music"/>
+
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/video_icon"
+            android:title="Videos"/>
+
+        <item
+            android:id="@+id/nav_channels"
+            android:icon="@drawable/chanl"
+            android:title="Channels"/>
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/person"
+            android:title="Profile"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logt"
+            android:title="Logout"/>
+
+
+    </group>
+</menu>

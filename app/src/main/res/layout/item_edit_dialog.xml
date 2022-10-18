@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit content details"
+            android:textSize="18dp"
+            />
+        <EditText
+            android:id="@+id/item_edit_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="Channel name"
+            android:inputType="text"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/item_edit_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="Description"
+            android:maxLines="5"/>
+
+        <TextView
+            android:id="@+id/item_edit_done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:text="Submit"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:gravity="end"
+            android:includeFontPadding="false"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

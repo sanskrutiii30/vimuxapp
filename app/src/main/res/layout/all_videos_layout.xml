@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/videoImg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:background="@color/silver"
+        android:minHeight="200dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_channel_image_allVids"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/profile"
+        android:layout_margin="10dp"
+        android:layout_below="@id/videoImg"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/user_channel_image_allVids"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/videoImg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/videoName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video title"
+            android:textStyle="bold"
+            android:includeFontPadding="false"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/video_publisher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="channel name"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/vid_views"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:text="views"/>
+
+            <TextView
+                android:id="@+id/vidDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:text="date"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

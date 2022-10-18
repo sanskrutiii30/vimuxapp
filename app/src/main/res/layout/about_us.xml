@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".aboutUs">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/abt_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:text="About Us"/>
+
+    <TextView
+        android:id="@+id/our_mis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@id/abt_us"
+        android:text="Our Mission"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        />
+
+        <TextView
+            android:id="@+id/abt_mission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/our_mis"
+            android:layout_marginTop="10dp"
+            android:text="@string/mission"
+            android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/our_vis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@id/abt_mission"
+        android:text="Our Vision"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/abt_vision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@id/our_vis"
+        android:layout_marginTop="10dp"
+        android:text="@string/vision"
+        />
+
+    <TextView
+        android:id="@+id/our_val"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@id/abt_vision"
+        android:text="Our Values"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/abt_val"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@id/our_val"
+        android:layout_marginTop="10dp"
+        android:text="@string/values"
+        />
+
+    <TextView
+        android:id="@+id/our_goal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@id/abt_val"
+        android:text="Our Goals"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/abt_gol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@id/our_goal"
+        android:layout_marginTop="10dp"
+        android:text="@string/goals"
+        />
+
+        <TextView
+            android:id="@+id/our_team"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_below="@id/abt_gol"
+            android:text="Our Team"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/abt_team"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_below="@id/our_team"
+            android:layout_marginTop="10dp"
+            android:text="@string/team"
+            />
+
+        <ImageView
+            android:id="@+id/sks_img"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_below="@id/abt_team"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/sakshi" />
+
+        <TextView
+            android:id="@+id/skk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_below="@id/sks_img"
+            android:text="Sanskruti Gosake"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/abt_sakshi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/skk"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:text="@string/sakshi_det"
+
+
+            />
+
+
+        <ImageView
+            android:id="@+id/sm_img"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_below="@id/abt_sakshi"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/soham2" />
+
+        <TextView
+            android:id="@+id/smm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_below="@id/sm_img"
+            android:text="Soham Mahapatra"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/abt_soham"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_below="@id/smm"
+            android:layout_marginTop="10dp"
+            android:text="@string/soham_det"
+            android:layout_marginBottom="10dp"
+            />
+
+    </RelativeLayout>
+</ScrollView>

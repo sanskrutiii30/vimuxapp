@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/long_click_edit_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_edit"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_edit"
+            />
+
+        <TextView
+            android:id="@+id/long_click_edit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@id/img_edit"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="Edit"
+            android:textSize="26dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/long_click_delete_linear"
+            android:layout_below="@id/long_click_edit_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img_delete"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:padding="8dp"
+                    android:layout_below="@id/img_edit"
+                    android:src="@drawable/ic_delete"
+                    />
+
+                <TextView
+                    android:id="@+id/long_click_delete"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_below="@id/img_edit"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toEndOf="@id/img_delete"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="Delete"
+                    android:textSize="26dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/long_click_cancel_linear"
+            android:layout_below="@id/long_click_delete_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img_cancel"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:padding="8dp"
+                    android:layout_below="@id/img_delete"
+                    android:src="@drawable/ic_cancel"
+                    />
+
+                <TextView
+                    android:id="@+id/long_click_cancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Cancel"
+                    android:gravity="center_vertical"
+                    android:textSize="26dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toEndOf="@id/img_cancel"
+                    android:layout_below="@id/img_delete"
+                    android:singleLine="true"
+                    />
+
+        </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">ViMuX</string>
+    <string name="empty_username">username cannot be empty</string>
+    <string name="empty_password">password cannot be empty</string>
+    <string name="invalid_name">Please Enter Valid Name</string>
+    <string name="invalid_mobile">Please Enter Valid Mobile Number</string>
+    <string name="invalid_email">Please Enter Valid Email ID</string>
+    <string name="invalid_pass_con">Password Does Not Match</string>
+    <string name="empty_mobile">Please Enter a Mobile Number</string>
+    <string name="empty_answer">Answer cannot be empty</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+
+    <string name="mission">\n The mission of ViMux is to provide a streaming video and audio through creating channels. \n Also, user can watch or listen video and audio anytime. We aim to provide a simple interface so that everyone can use our app and enjoy in their time.</string>
+    <string name="vision">\n The vision of ViMux is to become a largest streaming app available for the users in the world.</string>
+    <string name="values">\n • Professionalism \n • Honesty \n • Integrity \n • Smart Work \n • Respect \n • Responsibility</string>
+    <string name="goals">\n • To provide good interface. \n • To be budget friendly. \n • To stream videos and music.</string>
+    <string name="team">\n• The perfect team consists of people with varying skills and thinking.\n • We at ViMuX continue to believe this to be true and ensure we work the hardest to provide the possible content and interface to all our ViMuX active users.</string>
+    <string name="soham_det">\n • Soham is our in house coding expert who is specialized in android and php. \n • He is the tech mind behind ViMuX. \n • Soham is currently pursuing his MCA from Sinhgad Institute of Management and Computer Application.</string>
+    <string name="sakshi_det">\n • Sanskruti is our front end expertise in android. \n • She is design mind behind ViMux. \n • Sanskruti is currently pursuing MCA from Sinhgad Institute of Management and Computer Application.</string>
+
+
+    <string-array name="questions">
+        <item> Select security question   </item>
+        <item> Name of your first pet ?       </item>
+        <item> Name of your high school ?    </item>
+        <item>  Your dream job as a childhood ?</item>
+        <item> Your first Smartphone brand ?   </item>
+    </string-array>
+
+    <string-array name="types">
+        <item> Select video type </item>
+        <item> Action  </item>
+        <item> Animation </item>
+        <item> Educational </item>
+        <item> Emotional </item>
+        <item> Entertainment </item>
+        <item> Gaming </item>
+        <item> Gossip </item>
+        <item> Horror </item>
+        <item> Informative </item>
+        <item> Pranks </item>
+        <item> Unboxing </item>
+        <item> Vlog </item>
+    </string-array>
+    <string name="title_activity_navigation">navigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

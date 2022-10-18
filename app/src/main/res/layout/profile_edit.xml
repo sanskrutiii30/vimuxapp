@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".profileEdit">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageCircle"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/profile"
+        app:civ_border_color="@color/black"
+        app:civ_border_width="3dp" />
+
+    <ProgressBar
+        android:id="@+id/progress_edit_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageCircle"
+        android:layout_alignTop="@+id/imageCircle"
+        android:layout_alignEnd="@+id/imageCircle"
+        android:layout_alignBottom="@+id/imageCircle"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="40dp" />
+
+    <TextView
+        android:id="@+id/txtChangeProf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Picture"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="4dp"
+        android:layout_below="@id/imageCircle"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:layout_below="@id/txtChangeProf"
+        android:layout_margin="30dp"
+        android:background="@drawable/input_design"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editName"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/input_design"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+
+        />
+
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="Update"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/editEmail"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttons"/>
+
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:padding="20dp"
+        android:layout_below="@id/btnUpdate"
+        android:layout_centerHorizontal="true"
+        android:text="Close"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/buttons"/>
+
+</RelativeLayout>

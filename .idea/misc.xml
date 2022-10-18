@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/vimux backup/vimux/app/src/main/res/drawable/ic_fav_border.xml" value="0.18055555555555555" />
+        <entry key="..\:/vimux backup/vimux/app/src/main/res/drawable/ic_fav_filled.xml" value="0.18055555555555555" />
+        <entry key="..\:/vimux backup/vimux/app/src/main/res/layout/about_us.xml" value="0.22" />
+        <entry key="..\:/vimux backup/vimux/app/src/main/res/layout/activity_all_audios.xml" value="0.1721014492753623" />
+        <entry key="..\:/vimux backup/vimux/app/src/main/res/layout/activity_all_videos.xml" value="0.22" />
+        <entry key="..\:/vimux backup/vimux/app/src/main/res/layout/activity_channel_home.xml" value="0.14666666666666667" />
+        <entry key="..\:/vimux backup/vimux/app/src/main/res/layout/activity_channel_page.xml" value="0.16666666666666666" />
+        <entry key="..\:/vimux backup/vimux/app/src/main/res/layout/activity_home.xml" value="0.1490036231884058" />
+        <entry key="..\:/vimux backup/vimux/app/src/main/res/layout/activity_profile.xml" value="0.1" />
+        <entry key="..\:/vimux backup/vimux/app/src/main/res/layout/activity_profile_view.xml" value="0.1721014492753623" />
+        <entry key="..\:/vimux backup/vimux/app/src/main/res/layout/all_videos_layout.xml" value="0.1796875" />
+        <entry key="..\:/vimux backup/vimux/app/src/main/res/layout/audio_page.xml" value="0.22" />
+        <entry key="..\:/vimux backup/vimux/app/src/main/res/layout/audio_page_jc.xml" value="0.1721014492753623" />
+        <entry key="..\:/vimux backup/vimux/app/src/main/res/layout/contact.xml" value="0.13333333333333333" />
+        <entry key="..\:/vimux backup/vimux/app/src/main/res/layout/custom_playback_view.xml" value="0.1796875" />
+        <entry key="..\:/vimux backup/vimux/app/src/main/res/layout/forgot_password.xml" value="0.1721014492753623" />
+        <entry key="..\:/vimux backup/vimux/app/src/main/res/layout/new_pass_set.xml" value="0.1721014492753623" />
+        <entry key="..\:/vimux backup/vimux/app/src/main/res/layout/profile_edit.xml" value="0.1796875" />
+        <entry key="..\:/vimux backup/vimux/app/src/main/res/layout/reset_password.xml" value="0.1721014492753623" />
+        <entry key="..\:/vimux backup/vimux/app/src/main/res/layout/video_exo.xml" value="0.1490036231884058" />
+        <entry key="..\:/vimux backup/vimux/app/src/main/res/layout/video_upload.xml" value="0.15625" />
+        <entry key="..\:/vimux backup/vimux/app/src/main/res/menu/menu.xml" value="0.15185185185185185" />
+        <entry key="..\:/vimux backup/vimux/app/src/main/res/menu/nav_menu.xml" value="0.17692307692307693" />
+        <entry key="..\:/vimux/app/src/main/res/drawable-v24/back_profile_grad.xml" value="0.13333333333333333" />
+        <entry key="..\:/vimux/app/src/main/res/drawable-v24/back_white_prof.xml" value="0.15" />
+        <entry key="..\:/vimux/app/src/main/res/drawable-v24/ic_delete.xml" value="0.1527777777777778" />
+        <entry key="..\:/vimux/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19282051282051282" />
+        <entry key="..\:/vimux/app/src/main/res/drawable-v24/item_background.xml" value="0.15" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/button_bg.xml" value="0.18981481481481483" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/buttons.xml" value="0.19282051282051282" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/circle_shape.xml" value="0.16111111111111112" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/circular_progress_bar.xml" value="0.16111111111111112" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/custom_thumb.xml" value="0.15925925925925927" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/edit_text_bg.xml" value="0.18981481481481483" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/favorite_24.xml" value="0.16666666666666666" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/favorite_border_24.xml" value="0.16666666666666666" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/ic_back.xml" value="0.1537037037037037" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/ic_baseline_favorite_24_cus.xml" value="0.16666666666666666" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/ic_baseline_keyboard_backspace_24.xml" value="0.15925925925925927" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/ic_comment.xml" value="0.16666666666666666" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/ic_fastforward.xml" value="0.1" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/ic_fav_border.xml" value="0.16666666666666666" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/ic_fav_filled.xml" value="0.19583333333333333" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/ic_forward.xml" value="0.15925925925925927" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1685185185185185" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19282051282051282" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1537037037037037" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/ic_pause.xml" value="0.14537037037037037" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/ic_playlist.xml" value="0.1537037037037037" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/ic_rewind.xml" value="0.15925925925925927" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/ic_rotation.xml" value="0.15925925925925927" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/input_design.xml" value="0.19282051282051282" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/layout_bg.xml" value="0.16018518518518518" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/menu_more.xml" value="0.15925925925925927" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/netflix_audio_subtitles.xml" value="0.15925925925925927" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/netflix_brightness_two.xml" value="0.15925925925925927" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/netflix_lock_black.xml" value="0.1537037037037037" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/netflix_pause_button.xml" value="0.15925925925925927" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/netflix_speed.xml" value="0.15925925925925927" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/netflix_unlock.xml" value="0.1537037037037037" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/upload_style.xml" value="0.1925925925925926" />
+        <entry key="..\:/vimux/app/src/main/res/drawable/white_round.xml" value="0.15925925925925927" />
+        <entry key="..\:/vimux/app/src/main/res/font/font.xml" value="0.16111111111111112" />
+        <entry key="..\:/vimux/app/src/main/res/layout/activity_all_audios.xml" value="0.15715579710144928" />
+        <entry key="..\:/vimux/app/src/main/res/layout/activity_all_channels.xml" value="0.1796875" />
+        <entry key="..\:/vimux/app/src/main/res/layout/activity_all_videos.xml" value="0.14130434782608695" />
+        <entry key="..\:/vimux/app/src/main/res/layout/activity_audio_page.xml" value="0.15534420289855072" />
+        <entry key="..\:/vimux/app/src/main/res/layout/activity_channel_audios.xml" value="0.16757246376811594" />
+        <entry key="..\:/vimux/app/src/main/res/layout/activity_channel_dash.xml" value="0.16666666666666666" />
+        <entry key="..\:/vimux/app/src/main/res/layout/activity_channel_home.xml" value="0.16666666666666666" />
+        <entry key="..\:/vimux/app/src/main/res/layout/activity_channel_page.xml" value="0.22" />
+        <entry key="..\:/vimux/app/src/main/res/layout/activity_channel_videos.xml" value="0.14583333333333334" />
+        <entry key="..\:/vimux/app/src/main/res/layout/activity_create_channel.xml" value="0.16259057971014493" />
+        <entry key="..\:/vimux/app/src/main/res/layout/activity_home.xml" value="0.1796875" />
+        <entry key="..\:/vimux/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/vimux/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/vimux/app/src/main/res/layout/activity_navigation.xml" value="0.14666666666666667" />
+        <entry key="..\:/vimux/app/src/main/res/layout/activity_profile.xml" value="0.22" />
+        <entry key="..\:/vimux/app/src/main/res/layout/activity_profile_view.xml" value="0.22" />
+        <entry key="..\:/vimux/app/src/main/res/layout/activity_register.xml" value="0.1796875" />
+        <entry key="..\:/vimux/app/src/main/res/layout/activity_start.xml" value="0.17798913043478262" />
+        <entry key="..\:/vimux/app/src/main/res/layout/activity_subscription.xml" value="0.1796875" />
+        <entry key="..\:/vimux/app/src/main/res/layout/activity_switchmode.xml" value="0.15715579710144928" />
+        <entry key="..\:/vimux/app/src/main/res/layout/activity_video_page.xml" value="0.16259057971014493" />
+        <entry key="..\:/vimux/app/src/main/res/layout/activity_video_player.xml" value="0.16259057971014493" />
+        <entry key="..\:/vimux/app/src/main/res/layout/activity_video_upload.xml" value="0.16666666666666666" />
+        <entry key="..\:/vimux/app/src/main/res/layout/all_audios_layout.xml" value="0.22" />
+        <entry key="..\:/vimux/app/src/main/res/layout/all_videos_layout.xml" value="0.16666666666666666" />
+        <entry key="..\:/vimux/app/src/main/res/layout/allchannels_layout.xml" value="0.1796875" />
+        <entry key="..\:/vimux/app/src/main/res/layout/allusers_layout.xml" value="0.16077898550724637" />
+        <entry key="..\:/vimux/app/src/main/res/layout/audio_page.xml" value="0.14666666666666667" />
+        <entry key="..\:/vimux/app/src/main/res/layout/audio_page_Jc.xml" value="0.17028985507246377" />
+        <entry key="..\:/vimux/app/src/main/res/layout/audio_page_jc.xml" value="0.16621376811594202" />
+        <entry key="..\:/vimux/app/src/main/res/layout/audio_page_old.xml" value="0.1796875" />
+        <entry key="..\:/vimux/app/src/main/res/layout/audio_pg.xml" value="0.16666666666666666" />
+        <entry key="..\:/vimux/app/src/main/res/layout/audio_upload.xml" value="0.22" />
+        <entry key="..\:/vimux/app/src/main/res/layout/channel_detail_layout.xml" value="0.16666666666666666" />
+        <entry key="..\:/vimux/app/src/main/res/layout/channel_dialog.xml" value="0.16077898550724637" />
+        <entry key="..\:/vimux/app/src/main/res/layout/comment_row.xml" value="0.22" />
+        <entry key="..\:/vimux/app/src/main/res/layout/comments_layout.xml" value="0.16666666666666666" />
+        <entry key="..\:/vimux/app/src/main/res/layout/comments_page.xml" value="0.1796875" />
+        <entry key="..\:/vimux/app/src/main/res/layout/custom_playback_view.xml" value="0.14666666666666667" />
+        <entry key="..\:/vimux/app/src/main/res/layout/drop_down_items.xml" value="0.17300724637681159" />
+        <entry key="..\:/vimux/app/src/main/res/layout/edit_channel.xml" value="0.16259057971014493" />
+        <entry key="..\:/vimux/app/src/main/res/layout/ew_video.xml" value="0.1743659420289855" />
+        <entry key="..\:/vimux/app/src/main/res/layout/exo_player_view.xml" value="0.16485507246376813" />
+        <entry key="..\:/vimux/app/src/main/res/layout/feed_back.xml" value="0.14719202898550723" />
+        <entry key="..\:/vimux/app/src/main/res/layout/forgot_password.xml" value="0.16757246376811594" />
+        <entry key="..\:/vimux/app/src/main/res/layout/fragment_channel_dashboard.xml" value="0.22" />
+        <entry key="..\:/vimux/app/src/main/res/layout/fragment_notifications.xml" value="0.1453804347826087" />
+        <entry key="..\:/vimux/app/src/main/res/layout/input_design.xml" value="0.1766304347826087" />
+        <entry key="..\:/vimux/app/src/main/res/layout/item_audio.xml" value="0.16666666666666666" />
+        <entry key="..\:/vimux/app/src/main/res/layout/item_edit_dialog.xml" value="0.1490036231884058" />
+        <entry key="..\:/vimux/app/src/main/res/layout/item_video.xml" value="0.22" />
+        <entry key="..\:/vimux/app/src/main/res/layout/login_tab_fragment.xml" value="0.16666666666666666" />
+        <entry key="..\:/vimux/app/src/main/res/layout/long_click_dialog.xml" value="0.16666666666666666" />
+        <entry key="..\:/vimux/app/src/main/res/layout/nav_header.xml" value="0.17300724637681159" />
+        <entry key="..\:/vimux/app/src/main/res/layout/new_pass_set.xml" value="0.16757246376811594" />
+        <entry key="..\:/vimux/app/src/main/res/layout/new_video2.xml" value="0.1743659420289855" />
+        <entry key="..\:/vimux/app/src/main/res/layout/pdf_view.xml" value="0.17028985507246377" />
+        <entry key="..\:/vimux/app/src/main/res/layout/profile_edit.xml" value="0.16757246376811594" />
+        <entry key="..\:/vimux/app/src/main/res/layout/reset_password.xml" value="0.16757246376811594" />
+        <entry key="..\:/vimux/app/src/main/res/layout/selected_item.xml" value="0.17300724637681159" />
+        <entry key="..\:/vimux/app/src/main/res/layout/signup_tab_fragment.xml" value="0.16666666666666666" />
+        <entry key="..\:/vimux/app/src/main/res/layout/subscription_details.xml" value="0.16259057971014493" />
+        <entry key="..\:/vimux/app/src/main/res/layout/subscription_success.xml" value="0.14175724637681159" />
+        <entry key="..\:/vimux/app/src/main/res/layout/upload.xml" value="0.1671195652173913" />
+        <entry key="..\:/vimux/app/src/main/res/layout/video_exo.xml" value="0.151268115942029" />
+        <entry key="..\:/vimux/app/src/main/res/layout/video_page.xml" value="0.1796875" />
+        <entry key="..\:/vimux/app/src/main/res/layout/video_player.xml" value="0.16485507246376813" />
+        <entry key="..\:/vimux/app/src/main/res/layout/video_try.xml" value="0.15353260869565216" />
+        <entry key="..\:/vimux/app/src/main/res/layout/video_upload.xml" value="0.15081521739130435" />
+        <entry key="..\:/vimux/app/src/main/res/menu/chan_menu.xml" value="0.1796875" />
+        <entry key="..\:/vimux/app/src/main/res/menu/menu.xml" value="0.1796875" />
+        <entry key="..\:/vimux/app/src/main/res/menu/nav_menu.xml" value="0.3333333333333333" />
+        <entry key="..\:/vimux/app/src/main/res/menu/profile_menu.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
